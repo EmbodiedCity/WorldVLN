@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldVLN | Anonymous Project Page</title>
+    <meta name="description" content="Anonymous project page for WorldVLN with animated background, rich motion design, and supplementary videos for review.">
+    <meta name="robots" content="noindex,nofollow">
+    <meta property="og:title" content="WorldVLN | Anonymous Project Page">
+    <meta property="og:description" content="Anonymous project page for WorldVLN with supplementary videos for review.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css?v=20260514-resources">
+</head>
+<body>
+    <div class="page-lights" aria-hidden="true">
+        <div class="page-light page-light-a"></div>
+        <div class="page-light page-light-b"></div>
+        <div class="page-light page-light-c"></div>
+        <div class="page-noise"></div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="nav-logo-mark">W</span>
+                <span>WorldVLN</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#authors">Authors</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#overview">Abstract</a></li>
+                <li><a href="#videos">Demo</a></li>
+                <li><a href="#infer-process">World-Action</a></li>
+                <li><a href="#training-framework">Training</a></li>
+                <li><a href="#quantitative-results">Results</a></li>
+                <li><a href="#training-analysis">Analysis</a></li>
+                <li><a href="#citation">Citation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="top">
+        <div class="hero-orb hero-orb-a" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-b" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-c" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+
+        <div class="hero-stage-media" aria-hidden="true">
+            <div class="hero-video-wall">
+                <div class="hero-wall-panel" data-preview="static/background-previews/portrait-source-01-h264.mp4">
+                    <img class="hero-wall-poster" src="static/video-posters/portrait-source-01-h264.webp" alt="" decoding="async">
+                </div>
+                <div class="hero-wall-panel" data-preview="static/background-previews/video4-h256.mp4">
+                    <img class="hero-wall-poster" src="static/video-posters/video4-h256.webp" alt="" decoding="async">
+                </div>
+                <div class="hero-wall-panel" data-preview="static/background-previews/portrait-source-02-h264.mp4">
+                    <img class="hero-wall-poster" src="static/video-posters/portrait-source-02-h264.webp" alt="" decoding="async">
+                </div>
+                <div class="hero-wall-panel" data-preview="static/background-previews/square-source-02-h264.mp4">
+                    <img class="hero-wall-poster" src="static/video-posters/square-source-02-h264.webp" alt="" decoding="async">
+                </div>
+                <div class="hero-wall-panel" data-preview="static/background-previews/portrait-source-03-h264.mp4">
+                    <img class="hero-wall-poster" src="static/video-posters/portrait-source-03-h264.webp" alt="" decoding="async">
+                </div>
+                <div class="hero-wall-panel" data-preview="static/background-previews/square-source-03-h264.mp4">
+                    <img class="hero-wall-poster" src="static/video-posters/square-source-03-h264.webp" alt="" decoding="async">
+                </div>
+                <div class="hero-wall-panel" data-preview="static/background-previews/reference-h264.mp4">
+                    <img class="hero-wall-poster" src="static/video-posters/reference-h264.webp" alt="" decoding="async">
+                </div>
+                <div class="hero-wall-panel" data-preview="static/background-previews/video3-h264.mp4">
+                    <img class="hero-wall-poster" src="static/video-posters/video3-h264.webp" alt="" decoding="async">
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-shell">
+            <div class="hero-layout">
+                <div class="hero-copy" data-reveal>
+                    <h1 class="hero-title">WorldVLN</h1>
+                    <p class="hero-context">
+                        Autoregressive World Action Model for Aerial Vision-Language Navigation
+                    </p>
+                    <div class="hero-links">
+                        <a class="hero-link hero-link-static" aria-disabled="true" aria-label="arXiv link placeholder">
+                            <span class="hero-link-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path d="M5.2 18.8L18.8 5.2"></path>
+                                    <path d="M7.4 5.2l11.4 11.4"></path>
+                                    <path d="M3.8 7.7l2.3-2.3 3.6 3.6"></path>
+                                    <path d="M14.3 15l3.6 3.6 2.3-2.3"></path>
+                                </svg>
+                            </span>
+                            <span>arXiv</span>
+                        </a>
+                        <a class="hero-link hero-link-static" aria-disabled="true" aria-label="Paper link placeholder">
+                            <span class="hero-link-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path d="M6.5 2.75h7.1L19 8.15v13.1H6.5z"></path>
+                                    <path d="M13.5 2.75v5.5H19"></path>
+                                    <path d="M8.8 14.3h6.4"></path>
+                                    <path d="M8.8 17.2h4.8"></path>
+                                    <path d="M8.8 11.4h2.8"></path>
+                                </svg>
+                            </span>
+                            <span>Paper</span>
+                        </a>
+                        <a href="https://github.com/EmbodiedCity/WorldVLN.code" class="hero-link hero-link-primary" target="_blank" rel="noopener noreferrer" aria-label="Code repository">
+                            <span class="hero-link-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path d="M12 2.8a9.2 9.2 0 0 0-2.9 17.93c.46.08.63-.2.63-.44v-1.56c-2.56.56-3.1-1.1-3.1-1.1-.42-1.06-1.03-1.35-1.03-1.35-.84-.58.06-.57.06-.57.93.07 1.42.96 1.42.96.82 1.41 2.16 1 2.69.77.08-.6.32-1 .58-1.23-2.05-.23-4.2-1.03-4.2-4.57 0-1.01.36-1.84.96-2.48-.1-.24-.42-1.18.09-2.45 0 0 .78-.25 2.55.95A8.85 8.85 0 0 1 12 7.35c.78 0 1.55.1 2.28.31 1.77-1.2 2.55-.95 2.55-.95.51 1.27.19 2.21.09 2.45.6.64.96 1.47.96 2.48 0 3.55-2.16 4.33-4.22 4.56.33.29.63.86.63 1.73v2.56c0 .24.17.53.64.44A9.2 9.2 0 0 0 12 2.8z"></path>
+                                </svg>
+                            </span>
+                            <span>Code</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-scroll-cue" aria-hidden="true">
+                <span>Scroll</span>
+                <div class="hero-scroll-mouse"><div></div></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section authors-section" id="authors">
+            <div class="container container-narrow authors-panel" data-reveal>
+                <div class="author-list" aria-label="Author list">
+                    <span class="author-line">
+                        <span class="author-name">Baining Zhao<sup>1*</sup></span>,
+                        <span class="author-name">Jiacheng Xu<sup>2*</sup></span>,
+                        <span class="author-name">Weicheng Feng<sup>2*</sup></span>,
+                        <span class="author-name">Xin Zhang<sup>3*</sup></span>,
+                        <span class="author-name">Zhaolu Wang<sup>4*</sup></span>
+                    </span>
+                    <span class="author-line">
+                        <span class="author-name">Haoyang Wang<sup>1</sup></span>,
+                        <span class="author-name">Shilong Ji<sup>1</sup></span>,
+                        <span class="author-name">Ziyou Wang<sup>5</sup></span>,
+                        <span class="author-name">Jianjie Fang<sup>1</sup></span>,
+                        <span class="author-name">Zhiheng Zheng<sup>1</sup></span>
+                    </span>
+                    <span class="author-line">
+                        <span class="author-name">Weichen Zhang<sup>1</sup></span>,
+                        <span class="author-name">Yu Shang<sup>1</sup></span>,
+                        <span class="author-name">Wei Wu<sup>3</sup></span>,
+                        <span class="author-name">Chen Gao<sup>1&dagger;</sup></span>,
+                        <span class="author-name">Xinlei Chen<sup>1&dagger;</sup></span>,
+                        <span class="author-name">Yong Li<sup>1</sup></span>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="highlights">
+            <div class="container container-narrow section-panel" data-reveal>
+                <div class="section-head">
+                    <h2 class="section-title">Highlights</h2>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card" data-reveal data-delay="0">
+                        <div class="feature-label">01</div>
+                        <h3>Autoregressive WAM for Aerial VLN</h3>
+                        <p>We propose the first autoregressive world action model for aerial VLN, grounded in a closed-loop observe-act-update process.</p>
+                    </article>
+                    <article class="feature-card" data-reveal data-delay="80">
+                        <div class="feature-label">02</div>
+                        <h3>Action-aware GRPO</h3>
+                        <p>We introduce the first action-aware GRPO to boost the action ability of autoregressive WAMs.</p>
+                    </article>
+                    <article class="feature-card" data-reveal data-delay="160">
+                        <div class="feature-label">03</div>
+                        <h3>SOTA and Real-World Deployment</h3>
+                        <p>WorldVLN achieves strong performance on indoor and outdoor benchmarks and transfers to real-world drone deployment.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section" id="overview">
+            <div class="container container-narrow section-panel" data-reveal>
+                <div class="section-head">
+                    <h2 class="section-title">Abstract</h2>
+                </div>
+                <div class="text-block">
+                    <p>
+                        Aerial vision-language navigation requires agents to follow natural-language instructions through
+                        closed-loop perception and action in 3D environments. We argue that aerial VLN can be formulated
+                        as a prediction-driven world-action problem: the agent should anticipate latent world evolution and
+                        act according to the predicted consequences. To this end, we propose WorldVLN, the first
+                        autoregressive world action model for aerial VLN. Unlike full-sequence video-generation world
+                        models that generate an entire visual clip, WorldVLN adapts a latent autoregressive video backbone
+                        to predict short-horizon world-state transitions and directly decodes them into executable waypoint
+                        actions. After each action segment is executed, newly received observations are encoded back into
+                        the autoregressive context, enabling closed-loop world-action prediction. We further introduce a
+                        two-stage training framework that first grounds the video prior in instruction-conditioned
+                        navigation dynamics and then develops Action-aware GRPO, the first reinforcement learning method
+                        tailored to autoregressive WAMs, to optimize waypoint decisions through their downstream rollout
+                        consequences. On public outdoor and indoor benchmarks, WorldVLN consistently outperforms existing
+                        Vision-Language-Action baselines with 12%+ success-rate gains and larger advantages on challenging
+                        cases. It further transfers zero-shot to real drone deployment, suggesting that the proposed
+                        WorldVLN offers a promising route for spatial action tasks.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section" id="videos">
+            <div class="container container-wide section-panel" data-reveal>
+                <div class="section-head">
+                    <p class="section-tag">Videos</p>
+                    <h2 class="section-title">Demo</h2>
+                </div>
+
+                <div class="video-group">
+                    <div class="group-header" data-reveal>
+                        <h3>Outdoor Real-World Deployment</h3>
+                    </div>
+                    <div class="video-grid" id="outdoorVideos"></div>
+                </div>
+
+                <div class="video-group">
+                    <div class="group-header" data-reveal>
+                        <h3>Indoor Real-World Deployment</h3>
+                    </div>
+                    <div class="video-grid" id="testVideos"></div>
+                </div>
+
+                <div class="video-group">
+                    <div class="group-header" data-reveal>
+                        <h3>Outdoor Simulation (UAV-Flow)</h3>
+                    </div>
+                    <div class="video-grid video-grid-single" id="uavFlowVideos"></div>
+                </div>
+
+                <div class="video-group">
+                    <div class="group-header" data-reveal>
+                        <h3>Indoor Simulation (IndoorUAV)</h3>
+                    </div>
+                    <div class="video-grid video-grid-single" id="indoorUavVideos"></div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section" id="infer-process">
+            <div class="container container-wide section-panel" data-reveal>
+                <div class="section-head">
+                    <h2 class="section-title">Autoregressive World-Action</h2>
+                    <p class="section-intro">WorldVLN navigates by implicitly predicting what will happen next, acting on it, and continuously correcting itself with real visual feedback.</p>
+                </div>
+                <div class="video-group">
+                    <div class="video-grid video-grid-single" id="inferProcessVideos"></div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section" id="training-framework">
+            <div class="container container-wide section-panel" data-reveal>
+                <div class="section-head">
+                    <h2 class="section-title">Two-Stage Training Framework</h2>
+                    <p class="section-intro">We train the autoregressive WAM in two stages. Stage 1 supervises the latent autoregressive backbone with instruction-video pairs and the action decoder with video-trajectory pairs. Stage 2 samples multiple rollouts, assigns segment-level rewards from trajectory accuracy, task progress, and reference-policy regularization with temporal decay weighting, and updates WorldVLN through Action-aware GRPO.</p>
+                </div>
+                <div class="figure-block">
+                    <img class="section-figure" src="static/photos/training.png" alt="Two-stage training framework for WorldVLN" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section" id="quantitative-results">
+            <div class="container container-wide section-panel" data-reveal>
+                <div class="section-head">
+                    <h2 class="section-title">Quantitative Results</h2>
+                    <p class="section-intro">The quantitative results demonstrate the strong performance of WorldVLN across both outdoor and indoor UAV benchmarks.</p>
+                </div>
+                <div class="figure-block">
+                    <img class="section-figure" src="static/photos/figurenew.png" alt="Quantitative results across outdoor and indoor UAV benchmarks" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section" id="training-analysis">
+            <div class="container container-wide section-panel" data-reveal>
+                <div class="section-head">
+                    <h2 class="section-title">Training Analysis</h2>
+                    <p class="section-intro">We plot the training curves of the proposed model:</p>
+                </div>
+                <ul class="section-list">
+                    <li>Compared with VLA baselines, our method achieves faster performance improvements under the same number of training steps, demonstrating the stronger learning efficiency of WAM.</li>
+                    <li>Action-aware GRPO further improves performance beyond SFT, and qualitative examples indicate that it more directly enhances action execution.</li>
+                </ul>
+                <div class="analysis-media-stack">
+                    <div class="figure-card">
+                        <img class="section-figure" src="static/photos/figure1.png" alt="Training analysis curves for WorldVLN" loading="lazy" decoding="async">
+                    </div>
+                    <div class="figure-card analysis-video-card">
+                        <video class="analysis-video" src="static/photos/demo.mp4" autoplay muted loop playsinline controls preload="metadata" aria-label="Training analysis demo"></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="section" id="citation">
+            <div class="container container-narrow citation-panel" data-reveal>
+                <div class="section-head">
+                    <h2 class="section-title citation-title">Citation</h2>
+                </div>
+                <div class="citation-box" aria-label="Citation placeholder">
+                    <pre><code>@misc{worldvln2026placeholder,
+    title={WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation},
+    author={Baining Zhao and Jiacheng Xu and Weicheng Feng and Xin Zhang and Zhaolu Wang and Haoyang Wang and Shilong Ji and Ziyou Wang and Jianjie Fang and Zhiheng Zheng and Weichen Zhang and Yu Shang and Wei Wu and Chen Gao and Xinlei Chen and Yong Li},
+    year={2026},
+    eprint={placeholder},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI},
+    url={https://placeholder.url}
+}</code></pre>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container container-narrow">
+            <p>&copy; 2026 WorldVLN Anonymous Project Page</p>
+            <p>Thanks to InfinityStar and TSFormer-VO.</p>
+        </div>
+    </footer>
+
+    <script src="static/js/main.js?v=20260514-resources"></script>
+</body>
+</html>
