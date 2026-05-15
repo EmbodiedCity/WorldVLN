@@ -646,7 +646,7 @@ a:hover {
 
 .authors-section {
     margin-top: 24px;
-    padding-bottom: 0;
+    padding-bottom: 44px;
 }
 
 #highlights {
@@ -769,10 +769,19 @@ a:hover {
 .author-notes,
 .email-list {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px 18px;
+    text-align: center;
+}
+
+.affiliation-line,
+.email-line {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 4px 18px;
-    text-align: center;
 }
 
 .affiliation-list {
@@ -783,9 +792,9 @@ a:hover {
     line-height: 1.5;
 }
 
-.affiliation-list span,
+.affiliation-line span,
 .author-notes span,
-.email-list span {
+.email-line span {
     white-space: nowrap;
 }
 
@@ -798,14 +807,16 @@ a:hover {
 }
 
 .author-notes {
-    margin-top: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
     color: var(--text-muted);
     font-size: clamp(0.78rem, 1.16vw, 0.9rem);
     line-height: 1.45;
 }
 
 .email-list {
-    margin-top: 8px;
+    margin-top: 10px;
     color: #dcecff;
     font-family: var(--mono);
     font-size: clamp(0.74rem, 1.1vw, 0.86rem);
